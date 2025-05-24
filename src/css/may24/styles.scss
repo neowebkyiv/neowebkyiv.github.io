@@ -324,7 +324,7 @@ h2, .high2{
 	text-decoration: underline;
 }
 .fonts-style-1 a:hover {	
-	color: #FE5400;
+	// color: #FE5400;
 	text-decoration: none;
 }
 
@@ -375,10 +375,8 @@ a.link-white:hover{
 .div-link-white-1 a:hover{
 	border-bottom: 1px solid  transparent;
 	/* border-bottom: 1px dashed #ffffff; */
-	/* color: #ffffff; */
-	color: #ff7c00;
-	/* color: #fe6a00; */
-	text-decoration: none;
+	// color: #ff7c00;
+	text-decoration: underline;
 }
 
 a.viber1:link,
@@ -700,7 +698,10 @@ color: #919191;
     padding-bottom: 6px;
 }
 
-.bg-header-1, .bg-footer-1 { background: #ff5e00; }
+.bg-header-1, .bg-footer-1 {
+	background: #ff5e00;
+	box-shadow: 1px 1px 4px #a0a0a0;
+}
 // .bg-header-1, .bg-footer-1 { background: #171717; }
 /* .bg-header-1, .bg-footer-1 { background: #1f2123; } */
 /* .bg-header-1, .bg-footer-1 { background: #181a1b; } */
@@ -749,7 +750,8 @@ color: #919191;
 */
 .bt-green-1 { border-top: 5px solid #009e00; }
 .bt-orange-1 { border-top: 3px solid #ff7c00; }
-.bt-2 { border-top: 3px solid #171717; }
+.bt-2 { border-top: 3px solid #17171700; }
+// .bt-2 { border-top: 3px solid #171717; }
 /*
 .bt-blue-1 { border-top: 5px solid #008fd1; }
 .bt-red-1 { border-top: 5px solid #ff0000; }
